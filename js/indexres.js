@@ -5,7 +5,6 @@
             target: '#mainnav', 
             offset: 000
         });  
-        /* CSS Tricks smooth scrolling : http://css-tricks.com/snippets/jquery/smooth-scrolling/ */
         $('a[href*=#]:not([href=#])').click(function() {
             if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
                 var target = $(this.hash);
@@ -20,6 +19,7 @@
         });
 
 
-        $(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
+        $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+

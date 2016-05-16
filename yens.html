@@ -2,24 +2,54 @@
 <html >
   <head>
     <meta charset="UTF-8">
-    <title>Eat in Saigon</title>
+    <title>Yen's</title>
         <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
-    
-
     
         <link rel="stylesheet" href="css/styleeat.css">  
          <link rel="stylesheet" href="css/styleres.css">
-                <link rel="stylesheet" href="css/stylemid.css">
-           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css"> 
+      
+           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+
+            <link rel="stylesheet" href="css/animations.css">
+  
   </head>
 
   <body>
 <a id="fork" href="eat.html"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></a>
-
-    <div class="heading1"><h5>Yens</h5></div>
-
+ <nav class="navbar navbar">
 
 
+    <ul class="nav navbar-nav navbar-right" >
+      <li class="active"><a href="index.html">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Amercia </a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Seattle</a></li>
+          <li><a href="#">Miami</a></li>
+          <li><a href="#">Philadelphia</a></li>
+        </ul>
+      </li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Asia</a>
+          <ul class="dropdown-menu">
+          <li><a href="index1.html">Saigon</a></li>
+          <li><a href="#">Tokyo</a></li>
+          <li><a href="#">Shanghai</a></li>
+          <li><a href="#">Hongkong</a></li>
+        </ul></li>
+
+
+      <li><a href="me.html">About Me</a>
+      <ul class="dropdown-menu">
+          <li><a href="#">Seattle</a></li>
+          <li><a href="#">Miami</a></li>
+          <li><a href="#">Philadelphia</a></li>
+        </ul></li>
+
+      
+    </ul>
+
+</nav>
+
+    <div class="heading1"><h5>Yen's</h5></div>
 
     
      <nav id="mainnav" class="">
@@ -31,14 +61,15 @@
             <li class="awesome-tooltip" title="GoodToKnow"><a href="#gtk"></a></li>        
         </ul>
     </nav>     
-
-    <section id="address">
+<div class="animatedParent" data-sequence="100'">    
+  <section id="address" class='animated fadeInUp' data-id="1">
+        <h2>Address</h2>
     <div class="row">
-  <div class="col-sm-4 col-md-12">
+  <div class="col-sm-2 col-md-8 col-md-offset-2">
     <div class="thumbnail">
       <img src="imgeat/yens.jpg" alt="...">
       <div class="caption">
-        <h3>Address</h3>
+      
         <p>3/2A Trần Quang Khải，Lộc Thọ，tp. Nha Trang，Khánh Hòa 65000</p>
         <p><a href="https://www.google.com/maps/place/Yen's+Restaurant/@12.232591,109.1954,16z/data=!4m5!3m4!1s0x0:0xb6dfa9d97a610b2f!8m2!3d12.232591!4d109.1954?hl=zh-CN" class="btn btn-primary" role="button">See map</a> 
       </div>
@@ -46,70 +77,105 @@
   </div>
 </div>              
     </section>
-    <section id="info">
-    
-          <li class="rpanel"><a href="http://yensrestaurantnhatrang.com/view-our-full-menu" style="background-image: url(imgeat/yenfront.jpg);">
+    <section id="info"  >
+<h2 >Information</h2>
+      <div class="row">
 
-            <div class="info">
-
-              <div class="info-contain">          
-
+ <div class="col-md-5 col-md-offset-1 ">
+<i class="fa fa-glass fa-5x" aria-hidden="true"></i>
                 <h3>OPEN HOURS</h3>
 
-                <p class"long">all day: 7:00am–22:00 (sometimes to 23:00, it will adjust to seasons)</p>
-                <h3>price</h3>
+                <p >All day: 7:00am–22:00 (sometimes to 23:00, it will adjust to seasons)<br> <i class="fa fa-phone-square" aria-hidden="true"></i>Phone: 093 3766 205 / 012 955 6861</p>
+                <a href="http://yensrestaurantnhatrang.com/" class="btn btn-primary" role="button">More details</a> 
 
-                <p class="long">most restaurants in Vietnam are moderate, compared Shanghai and New York,I went there three times, and the most I spend was 200,000 Dong that was aroud 9 us dollars.<br><strong>inference:</strong> <br> Rice noodles and soup: Dong 59,000-69,000 (USD 2.65-3.1)<br> Main course(clay pot, hotpot, something with meat and rice): Dong About 100,000(USD 4.5) <br> drinks: Dong 20,000-40,000 (USD 0.9-1.8) </p>
               </div>
+  <div class="col-md-5"> 
+      <i class="fa fa-money fa-5x" aria-hidden="true"></i>
+  <h3>Price</h3>
+      <a href="http://yensrestaurantnhatrang.com/view-our-full-menu"></a>
+<p >Most restaurants in Vietnam are moderate, compared Shanghai and New York,I went there three times, and the most I spend was 200,000 Dong that was aroud 9 us dollars.<br><strong>Inference:</strong> <br> Rice noodles and soup: Dong 59,000-69,000 (<i class="fa fa-usd" aria-hidden="true"></i> 2.65-3.1)<br> Main course(clay pot, hotpot, something with meat and rice): Dong About 100,000(<i class="fa fa-usd " aria-hidden="true"></i> 4.5) <br> drinks: Dong 20,000-40,000 (<i class="fa fa-usd" aria-hidden="true"></i> 0.9-1.8) </p>
+      </div>
+</div>
+  
 
+</div>  
+              
             </div>
 
-            </a></li>
+            </li>
     </section>
-    <section id="recommendation">   
-      <figure>
-          <img src="imgeat/yens2.jpg" >
+    <section id="recommendation">  
+              <h2>Rcommendation</h2>
+
+     <div class="row">
+
+  <div class="col-md-4"> 
+      <figure class="tooltip1" data-toggle="tooltip" data-placement="bottom" title="May not on the menu, ask waiters!">
+      <img src="imgeat/yens2.jpg" class="img-responsive" alt="Responsive image">
           <figcaption><div>Hotpot</div>
         </figcaption>
       </figure>
-           <figure>
-          <img src="imgeat/yens2.jpg" >
-          <figcaption><div>Hotpot</div>
+    </div>
+        <div class="col-md-4"> 
+           <figure class="tooltip1" data-toggle="tooltip" data-placement="bottom" title="shrimp, pork with pineapple 14. and tomato sauce!">
+           <img src="imgeat/yens1.jpg" class="img-responsive" alt="Responsive image">
+          <figcaption><div >Fried wonton </div>
         </figcaption>
       </figure>
-           <figure>
-          <img src="imgeat/yens2.jpg" >
-          <figcaption><div>Hotpot</div>
+    </div> 
+        <div class="col-md-4"> 
+           <figure class="tooltip1" data-toggle="tooltip" data-placement="bottom" title="with stir fried marinated beef!">
+           <img src="imgeat/papa.jpg" class="img-responsive" alt="Responsive image">
+          <figcaption><div>Papaya salad </div>
         </figcaption>
       </figure>
-                      
+       </div>                
     </section>
     <section id="gtk"> 
+<h2>Good to know<h2>
+  <div class="row">
 
+  <div class="col-md-4">
+    <button data-toggle="collapse"  class="btn btn-primary"data-target="#do">Do!</button>
 
+<div id="do" class="collapse">
+<p>
+HOTPOT 100% needs to try, especially the fresh squid.
+The flavor Vietnams white wine is impressive and very hot, worth trying.</p>
+</div></div>
+ <div class="col-md-4 ">
+    <button data-toggle="collapse" data-target="#not" class="btn btn-primary">Better not</button>
 
-<!-- HTML to write -->
-<a href="#" data-toggle="tooltip" title="Since many russians live here, the menu is written by Vietnamese, English and Russian. Waiters here can speak fluent English, Russian and even Spanish!! Some of them are very handsome!!<br>They accept both USD and Vitenam Dong, but USD might be a little bit more expensive cause restaurants in Vietnam tend to use a higher currency  exchange rate.">Tips!</a>
+<div id="not" class="collapse">
 
-<!-- Generated markup by the plugin -->
-<div class="tooltip buttom" role="tooltip">
-  <div class="tooltip-arrow"></div>
-  <div class="tooltip-inner">
-    Since many russians live here, the menu is written by Vietnamese, English and Russian. Waiters here can speak fluent English, Russian and even Spanish!! Some of them are very handsome!!<br>They accept both USD and Vitenam Dong, but USD might be a little bit more expensive cause restaurants in Vietnam tend to use a higher currency  exchange rate.
-  </div>
+<p>This restaurant is always very busy in an rush hour. I think a proper time for lunch might be after 2:00 pm, and for dinner might be before 6:00pm.
+I don't think the juice here is as good as its hotpot cause there are many super good small cafes and smoothies shops to exlpore.</p>
+</div></div>
+ <div class="col-md-4 ">
+    <button data-toggle="collapse" class="btn btn-primary" data-target="#tip">Tips</button>
+
+<div id="tip" class="collapse">
+
+<p>Since many russians live here, the menu is written by Vietnamese, English and Russian. Waiters here can speak fluent English, Russian and even Spanish!! Some of them are very handsome!!
+They accept both USD and Vitenam Dong, but USD might be a little bit more expensive cause restaurants in Vietnam tend to use a higher currency exchange rate.</p>
+</div></div>
+
 </div>
 
 
     </section>
 
 
-
+</div>
      <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
-    
+
+
+
             <script src="js/indexres.js"></script>
 
-    
+    <script src='js/css3-animate-it.js'></script>
+
     
     
   </body>
